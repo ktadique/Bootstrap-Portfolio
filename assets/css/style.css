@@ -158,6 +158,8 @@ color: var(--white);
   fill: #1f242c;
 }
 
+.hero-image-container{}
+
 /* About Section styles */
 
 .progress {

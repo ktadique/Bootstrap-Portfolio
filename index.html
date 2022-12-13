@@ -98,9 +98,9 @@
     <!-- About Section -->
 
     <section class="about-section my-4 text-center" id="about">
-      <div class="about-header py-5 px-5 text-lg-left text-sm-center">
-        <h1>About Me<span class="emph">!</span></h1>
-      </div>
+      <header class="section-header py-5 px-5 text-lg-left text-sm-center">
+        <h1><span class="underline">About Me<span class="emph">!</span></span></h1>
+      </header>
       <div class="about-content my-5 container h-100">
         <div class="row mx-5 align-items-center">
           <div class="col col-lg-6 col-sm-12">
@@ -137,8 +137,8 @@
 
     <!-- Work Section -->
     <section class="work-section text-center" id="work">
-      <header class="work-header py-5 px-5 text-lg-right text-sm-center">
-        <h1>My Work<span class="emph">!</span></h1>
+      <header class="section-header py-5 px-5 text-lg-right text-sm-center">
+        <h1><span class="underline">My Work<span class="emph">!</span></span></h1>
       </header>
       <div class="projects-container py-5 px-5 container-fluid">
         <div class="row p-2">
@@ -303,68 +303,158 @@
 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
-      <header class="work-header p-5 text-lg-right text-sm-center">
-        <h1>Contact Me<span class="emph">!</span></h1>
-      </header>
-      <div class="contact-form container mb-5">
-        <form>
-          <div class="form-container bg-dark rounded-lg p-5">
-            <header class="form-header text-center pb-4">
+      <div class="contact-divider-top">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="contacts-container container">
+        <header class="section-header container p-5 text-center" >
+          <h1><span class="underline">Contact Me<span class="emph">!</span></span></h1>
+        </header>
+        <div class="contact-form container bg-dark rounded-lg  d-flex align-items-center mb-5">
+          <div class="contact-left container h-100 w-50 mr-3 text-center">
+            <header class="mb-3">
               <h2>Say Hi<span class="emph">!</span></h2>
             </header>
-            <h6 class="form-desc pb-2">
-              Have a project on your mind that you'd like to discuss? Let me
-              know!
-            </h6>
-            <div class="form-group">
-              <div class="form-row">
-                <div class="col">
-                  <label for="formFirstName">First Name:</label>
-                  <input
-                    id="formFirstName"
-                    type="text"
-                    class="form-control"
-                    placeholder="First name"
-                  />
-                </div>
-                <div class="col">
-                  <label for="formLastName">Last Name:</label>
-                  <input
-                    id="formLastName"
-                    type="text"
-                    class="form-control"
-                    placeholder="Last name"
-                  />
-                </div>
-              </div>
+            <div class="form-desc d-flex flex-column text-center">
+              <p>Got a project on your mind that you'd like to discuss?</p>
+              <h5>Let me know<span class="emph">!</span></h5>
             </div>
-            <div class="form-group">
-              <label for="formGroupExampleInput">Email</label>
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput"
-                placeholder="Example@email.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="messageFormTextarea">Message:</label>
-              <textarea
-                class="form-control"
-                id="messageFormTextarea"
-                rows="3"
-                placeholder="Type your message here..."
-              ></textarea>
-            </div>
-            <div class="form-group d-flex justify-content-center">
-              <div class="col-sm-10 text-center">
-                <button type="submit" class="btn btn-outline-light">
-                  Submit
-                </button>
-              </div>
-            </div>
+            <!-- <div class="socials-bar d-flex align-items-center justify-content-between">
+              <ul class="social-row d-flex flex-wrap">
+                <li class="social-box">
+                  <a href="https://github.com/ktadique" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-github"
+                    ><title>GitHub</title>
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li class="social-box">
+                  <a href="https://uk.linkedin.com/in/kirsten-tadique-b5aa4b122" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-linkedin"
+                    ><title>LinkedIn</title>
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle></svg
+                  ></a>
+                </li>
+                <li class="social-box">
+                  <a href="https://dribbble.com/Kirschlo" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-dribbble"
+                    ><title>Dribble</title>
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path
+                        d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li class="social-box">
+                  <a href="https://www.behance.net/kirstentadique" target="_blank"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    ><title>Behance</title>
+                      <path
+                        d="M18 8.101h-4v-.875h4v.875zm.84 6.125c-.77 2.258-5.949 2.966-5.949-1.56 0-4.583 5.508-4.377 6.053-.872.045.295.062.693.055 1.249h-4.41c-.104 1.715 1.76 1.932 2.404 1.184h1.847zm-4.211-2.333h2.624c-.115-1.687-2.36-1.81-2.624 0zm-5.858 4.076h-3.771v-8.73h4.056c3.194.047 3.255 3.176 1.587 4.028 2.019.735 2.086 4.702-1.872 4.702zm-1.896-5.134h1.965c1.464 0 1.696-1.859-.182-1.859h-1.783v1.859zm1.854 1.454h-1.854v1.947h1.824c1.782-.001 1.673-1.947.03-1.947zm3.271-10.289c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z"
+                      /></svg
+                  ></a>
+                </li>
+              </ul>
+            </div> -->
           </div>
-        </form>
+          <form class="contact-right container">
+            <header class="form-header text-center pb-4">
+            <div class="form-container p-5">
+              <div class="form-group">
+                <div class="form-row d-flex flex-column">
+                  <div class="col">
+                    <label for="formName">Name:</label>
+                    <input
+                      id="formName"
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Example@email.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="messageFormTextarea">Message:</label>
+                <textarea
+                  class="form-control"
+                  id="messageFormTextarea"
+                  rows="3"
+                  placeholder="Type your message here..."
+                ></textarea>
+              </div>
+              <div class="form-group d-flex justify-content-center">
+                <div class="col-sm-10 text-center">
+                  <button type="submit" class="btn btn-outline-light">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <footer class="text-center">
+          <h6>Made with ❤ Kirsten T. 2022</h6>
+        </footer>
       </div>
     </section>
 

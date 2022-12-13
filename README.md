@@ -2,7 +2,7 @@
 
 ## Description
 
-[Kirsten T.//Web Developer](https://ktadique.github.io/kt-portfolio/) is my portfolio website showcasing my UX and Bootstrap framework knowledge.
+[Kirsten T. //Web Developer](https://ktadique.github.io/Bootstrap-Portfolio/) is my portfolio website showcasing my UX and Bootstrap framework knowledge.
 
 I had tried to make my portfolio as similar in both looks and functionality as my previous portfolio, using all the relevant bootstrap components as necessary.
 
@@ -14,7 +14,7 @@ I had tried to make my portfolio as similar in both looks and functionality as m
 
 ## Portfolio Website Preview
 
-![Kirsten T.//Web Developer](/assets/images/Screen%20Shot%202022-12-13%20at%2023.30.13.png)
+![Kirsten T. //Web Developer](/assets/images/Screen%20Shot%202022-12-13%20at%2023.30.13.png)
 
 ## Links
 

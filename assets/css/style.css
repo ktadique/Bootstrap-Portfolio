@@ -4,9 +4,9 @@
 :root { --white: #faebd7;
   --bg: ; #1f242c; */ }
 
-div {
-  border: 1px solid green;
-}
+  div {
+   border: 1px solid green;
+  }
 
 html,
 body {
@@ -84,7 +84,9 @@ p { font-family: "Inter", sans-serif;
 /* Navigation Styles*/
 
 .logo a{
-  font-size: 38px;
+  font-size: 45px;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .navbar {
@@ -132,6 +134,10 @@ color: var(--white);
   background-size: cover;
 }
 
+.header-content {
+  filter: drop-shadow(0 0 0.75rem #777);
+}
+
 .hero-divider {
   position: absolute;
   bottom: 0;
@@ -153,6 +159,36 @@ color: var(--white);
 }
 
 /* About Section styles */
+
+.progress {
+  height: 25px;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  background-color: transparent
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+}
+
+.progress-bar {
+  border-radius: 25px;
+}
+
+.bg-git {
+  background-color: #563387;
+}
+
+.bg-htcs {
+  background-color: #b22b87;
+}
+
+.bg-js {
+  background-color: #f06f48;
+}
+
+.bg-react {
+  background-color: #CE3855;
+}
+
 
 /* Work Styles */
 
@@ -232,21 +268,20 @@ color: var(--white);
 
 .social-row {
   gap: 25px;
-  
 }
 
-.social-box svg {
-  width: 35px;
-  height: 35px;
+.social-btn {
+  border: 1px solid var(--white);
 }
 
-.social-box svg:hover {
+.social-btn:hover {
   transition: 0.2s;
   transform: translateY(-3px);
 }
 
-.social-box {
-  background-color: none;
+.social-btn svg {
+  width: 35px;
+  height: 35px;
 }
 
 .contact-divider-top {

@@ -92,4 +92,104 @@ color: var(--white);
 
 /* Work Styles */
 
+.card {
+  box-shadow: rgb(20, 20, 20) 0px 20px 30px -10px;
+  height: 500px;
+}
+
+.card-img {
+  max-height: 400px;
+    min-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* #c1 {
+  background-image: url("/assets/images/travelcali.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+  
+}
+
+.c2 {
+  background-image: url("/assets/images/HoriseonScreenCap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow:hidden;
+}
+
+.c3 {
+  background-image: url("/assets/images/02-portfolio-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  }
+
+.c4 {
+  background-image: url("/assets/images/travelcali.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.c5 {
+  background-image: url("/assets/images/travelcali.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.c6 {
+  background-image: url("/assets/images/travelcali.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+
+.btn-outline-light {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.btn-outline-light:hover{
+  background-color: var(--white);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  outline: solid 1px var(--white);
+  outline-offset: -12px;
+
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.card-img-overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.card-img-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
+
+.card-img-overlay:hover > * {
+  transform: translateY(0);
+}
+
 /* Contact Styles */

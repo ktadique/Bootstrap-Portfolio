@@ -129,7 +129,7 @@ color: var(--white);
   width: 100%;
   height: 100vh;
   /* padding: 0 50px; */
-  background: url(/assets/images/kukai-art-5PXqfK9WEYo-unsplash.jpg);
+  background: url('../images/kukai-art-5PXqfK9WEYo-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -245,8 +245,7 @@ color: var(--white);
   position: relative;
   width: 100%;
   height: auto%;
-  /* padding: 0 50px; */
-  background: url(/assets/images/kukai-art-5PXqfK9WEYo-unsplash.jpg);
+  background: url('../images/kukai-art-5PXqfK9WEYo-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
